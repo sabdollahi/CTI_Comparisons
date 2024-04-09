@@ -1,0 +1,9 @@
+conda create -n cti_proj python=3.9 -y
+conda activate cti_proj
+pip install rdkit-pypi
+conda install matplotlib
+conda install scikit-learn
+conda install pandas
+conda install numpy
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install pyg -c pyg
